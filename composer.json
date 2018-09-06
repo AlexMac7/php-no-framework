@@ -1,0 +1,20 @@
+{
+    "name": "alex/php-no-framework-invoice-creation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex MacKenzie",
+            "email": "alexbcmac7@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "phpunit/phpunit": "^7.3",
+        "filp/whoops": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
