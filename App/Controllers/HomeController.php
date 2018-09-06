@@ -16,9 +16,7 @@ class HomeController
 
     public function show()
     {
-    	// $name = ! empty($_GET['name']) ? $_GET['name'] : 'Bobbeh';
-    	print_r($this->db);
-
-    	// echo '<h1>Hello!</h1>' . '<h2>' . $name . '</h2>';
+    	$this->db->query('SELECT * FROM Test');
+    	print_r($this->db->execute());
     }
 }

@@ -5,7 +5,7 @@ namespace App;
 
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/../DatabaseRelated/databaseconfig.php';
-include __DIR__ . '/../DatabaseRelated/database.php';
+require __DIR__ . '/../DatabaseRelated/database.php';
 
 error_reporting(E_ALL);
 
